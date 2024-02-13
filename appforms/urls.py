@@ -1,5 +1,12 @@
-from django.urls import path
+from django.urls import path, include
+# from tarefa.views import
+from rest_framework import routers
+# from tarefa.serializer import
+
+
+router = routers.DefaultRouter()
+
 
 urlpatterns = [
-    path(),
+    path("", include(router.urls)),
 ]
