@@ -26,7 +26,6 @@ Uma api CRUD de cadastro de alunos, professores e funcionarios.
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `string` | **Obrigatório**. O ID do aluno que você quer |
 
-#### add(num1, num2)
 
 digite a doc aqui.....
 
