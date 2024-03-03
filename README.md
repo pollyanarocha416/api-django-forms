@@ -9,7 +9,7 @@ Uma api CRUD de cadastro de alunos, professores e funcionarios.
 #### Retorna todos os itens
 
 ```http
-  GET /api/items
+  GET /api/alunos
 ```
 
 | Parâmetro   | Tipo       | Descrição                           |
@@ -19,7 +19,7 @@ Uma api CRUD de cadastro de alunos, professores e funcionarios.
 #### Retorna um item
 
 ```http
-  GET /api/items/${id}
+  GET /api/alunos/${id}
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
