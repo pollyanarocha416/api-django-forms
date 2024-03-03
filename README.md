@@ -6,7 +6,7 @@ Uma api CRUD de cadastro de alunos, professores e funcionarios.
 
 ## Documentação da API
 
-#### Retorna todos os itens
+#### Retorna todos os alunos
 
 ```http
   GET /api/alunos
@@ -24,7 +24,7 @@ Uma api CRUD de cadastro de alunos, professores e funcionarios.
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
+| `id`      | `string` | **Obrigatório**. O ID do aluno que você quer |
 
 #### add(num1, num2)
 
